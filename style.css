@@ -1,0 +1,178 @@
+body{
+    font-family: "Garamond";
+    letter-spacing:3px;
+    background-color:#e4f6f8; 
+  }
+  #wrapper1
+  {
+  text-align: center;
+  border: 2px solid #e8e8e8;
+    border-radius: 14px;
+    padding : 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px;
+   margin-bottom:10px;
+    background:#336699;
+  }
+  #yourToDoH1
+  {
+  color:white;
+  font-size:45px;
+  text-shadow: 2px 2px 2px 2px #e4f6f8;
+  }
+  #userInput
+  {
+   width: 40%;
+   padding: 10px;
+  border: 2px solid #e8e8e8;
+  font-size:25px;
+  background-color:#e4f6f8; 
+  }
+  ::placeholder
+  {
+   font-size: 20px;
+  }
+  #addTaskButton
+  {
+  border-radius: 50%;
+  background-color: #e4f6f8;
+    border: 2px solid #008CBA;
+    color: #008CBA;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #addTaskButton:hover{
+  background-color: #008CBA;
+  border: 2px solid #008CBA;
+    color: #e4f6f8;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .containerPending
+  {
+  float:left;
+  width:45%;
+  display:inline-block;
+  
+  }
+  .containerCompleted
+  {
+  float:right;
+  width:45%;
+  display:inline-block;
+  }
+  #pendingH1{
+   border: 2px solid #e8e8e8;
+    border-radius: 8px;
+    padding:10px;
+    text-align:center;
+    color: #f5f5f5;
+    background:#0099cc;
+  }
+  #bigDiv{
+    margin-left:50px;
+    margin-right:50px;
+  }
+  #completedH1
+  {
+  border: 2px solid #e8e8e8;
+    border-radius: 8px;
+    padding:10px;
+    color: #f5f5f5;
+    background:#336666;
+    text-align:center;
+  }
+  .buttonContClass
+  {
+  display:inline-block;
+  width: 90%;
+  padding: 10px;
+  margin-left:10px;
+  border-radius:8px;
+  background-color: #383838;
+    border: 3px solid #404040;
+    color: #d3d3d3;
+  
+  }
+  .taskDivClass
+  {
+      float:left;
+      font-size:25px;
+      background-color:#383838;
+  }
+  .completedButton
+  {
+  float: right;
+  font-size: 17px;
+  margin:5px;
+  padding-left:7px;
+      padding-right:7px;
+      background:transparent;
+      color: #d3d3d3;
+      border:none;
+      cursor:pointer;
+  }
+  .deleteButton
+  {
+  float: right;
+  font-size: 15px;
+  margin:5px;
+  padding-left:7px;
+      padding-right:7px;
+      border-radius:30%;
+      color:white;
+      background:red;
+      cursor:pointer;
+      border:none;
+  }
+  .editButton
+  {
+      float: right;
+      font-size: 18px;
+      margin:5px;
+      padding-left:7px;
+      padding-right:7px;
+      cursor:pointer;
+      border:none;
+      background: transparent;
+      color:#d3d3d3;
+  }
+  .editButton:hover{
+    background: #505050;
+  transition: 0.5s;
+  }
+  .completedButton:hover{
+    background: #505050;
+  transition: 0.5s;
+  }
+  .deleteButton:hover{
+    opacity:0.8;  
+  transition: 0.5s;
+  }
+  ul
+  {
+  list-style-type: none;
+    background-color:#e4f6f8; 
+    margin-left:0px;padding-left:0px;
+  
+  }
+  
+  #taskList:empty:after
+  {
+  content: "Yet to add any task!";
+  align-content: center;
+  }
+  #taskListCompleted:empty:after
+  {
+  content: "Yet to complete any task!";
+  }
